@@ -20,8 +20,6 @@ class Basket extends Model
 
     protected $timestamps = false;
 
-    protected $fillable = [
-        'price',
-    ];
+    protected $fillable = ['price'];
 
 }
