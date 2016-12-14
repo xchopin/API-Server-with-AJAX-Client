@@ -13,5 +13,11 @@ use Illuminate\Database\Eloquent\Model;
 
 class ProductBasket extends Model
 {
+    protected $table = 'product_basket';
+
+    protected $timestamps = false;
+
+    protected $fillable = ['quantity'];
+
 
 }
