@@ -18,6 +18,8 @@ class Basket extends Model
 
     protected $primaryKey = 'id';
 
+    protected $timestamps = false;
+
     protected $fillable = [
         'price',
     ];
