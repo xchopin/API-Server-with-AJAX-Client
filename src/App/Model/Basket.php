@@ -20,7 +20,7 @@ class Basket extends Model
 
     protected $primaryKey = 'id';
 
-    protected $timestamps = false;
+    public $timestamps = false;
 
     protected $fillable = [
         'price',
@@ -30,6 +30,11 @@ class Basket extends Model
     public function isClosed()
     {
         return ($this->state == CLOSED);
+    }
+
+    public function switchState()
+    {
+        $this->isClosed() ? $this->state = OPEN : $this->state = CLOSED;
     }
 
 }

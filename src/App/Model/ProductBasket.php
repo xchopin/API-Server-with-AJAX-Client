@@ -15,9 +15,8 @@ class ProductBasket extends Model
 {
     protected $table = 'product_basket';
 
-    protected $timestamps = false;
+    public $timestamps = false;
 
     protected $fillable = ['quantity'];
-
 
 }

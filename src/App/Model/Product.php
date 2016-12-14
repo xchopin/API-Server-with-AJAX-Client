@@ -15,7 +15,7 @@ class Product extends Model
 {
     protected $table = 'product';
 
-    protected $timestamps = false;
+    public $timestamps = false;
 
     protected $primaryKey = 'id';
 
@@ -31,5 +31,7 @@ class Product extends Model
         $path = __DIR__ . '/../../../public/img/';
         return $path . $this->id;
     }
+
+
 
 }
