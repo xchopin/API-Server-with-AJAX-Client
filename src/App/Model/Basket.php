@@ -8,18 +8,28 @@
 
 namespace App\Model;
 
-
 use Illuminate\Database\Eloquent\Model;
-
 
 class Basket extends Model
 {
+    const OPEN = 0;
+
+    const CLOSED = 1;
+
     protected $table = 'basket';
 
     protected $primaryKey = 'id';
 
     protected $timestamps = false;
 
-    protected $fillable = ['price'];
+    protected $fillable = [
+        'price',
+        'state',
+    ];
+
+    public function isClosed()
+    {
+        return ($this->state == CLOSED);
+    }
 
 }
