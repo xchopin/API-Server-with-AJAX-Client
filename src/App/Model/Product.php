@@ -15,6 +15,8 @@ class Product extends Model
 {
     protected $table = 'product';
 
+    protected $timestamps = false;
+
     protected $primaryKey = 'id';
 
     protected $fillable = [
@@ -24,10 +26,9 @@ class Product extends Model
         'file',
     ];
 
-    protected $path = 'public/img/';
-
     public function getPicturePath()
     {
+        $path = __DIR__ . '/../../../public/img/';
         return $path . $this->id;
     }
 
