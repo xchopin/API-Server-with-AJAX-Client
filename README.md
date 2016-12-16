@@ -1,4 +1,4 @@
-# API Server with AJAX Client
+# CORS-Compliant REST API Server with AJAX Client
 This is a quick demonstration of a CORS-COMPLIANT Rest API Server in PHP with a JQuery Client using AJAX for its requests.
 
 ## Engines used
