@@ -47,9 +47,9 @@ Run your favorite database management software such as phpMyAdmin, create a data
 ## Key files
 - `public/index.php`: Application entry point
 - `bootstrap/controllers.php`: Registers every controller in the app container
-- `bootstrap/db.php.dist`: Database configuration file model (do not put your database configuration here)
+- `bootstrap/db.php`: Database configuration file
 - `bootstrap/dependencies.php`: Services for Pimple
 - `bootstrap/middleware.php`: Application middleware
 - `bootstrap/settings`: Application configuration
 - `src/App/Controller/Controller.php`: Base controller. All controllers should extend this class
-- `src/App/Resources/routes/app.php`: Main routing file
+- `src/App/Resources/routes/app.php`: Main routing file (API)
