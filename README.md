@@ -4,7 +4,6 @@ This is a quick demonstration of a CORS-Compliant REST API Server, written in PH
 ## Engines used
 - Ajax
 - Eloquent ORM
-- Font Awesome
 - jQuery
 - Slim Micro framework
 - Twig
