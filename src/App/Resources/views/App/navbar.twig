@@ -12,9 +12,16 @@
         <div class="collapse navbar-collapse" id="navbar-collapse">
             <ul class="nav navbar-nav navbar-right">
                     <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">My Basket ( articles )<span class="caret"></span></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="">Clear my basket</a></li>
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">
+                            <i class='fa fa-shopping-cart'></i> <span id='numberItems'></span>
+                            <span class="caret"></span>
+                        </a>
+                        <ul id='basketMenu' class="dropdown-menu">
+                            <li ><a id="order"><i class="fa fa-check"></i> Order</a></li>
+                            <li><a id='clearBasket'><i class="fa fa-close"></i> Empty my basket</a></li>
+                            <li><hr></li>
+                            <li><a ><i class="fa fa-dollar"></i> <span id='total'> Total : 0.00 $</span></a></li>
+                            <li><hr></li>
                         </ul>
                     </li>
             </ul>

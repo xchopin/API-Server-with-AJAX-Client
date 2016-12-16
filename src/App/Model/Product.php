@@ -32,6 +32,13 @@ class Product extends Model
         return $path . $this->id;
     }
 
+    public function baskets()
+    {
+        return $this->belongsToMany('App\Model\Product')->withPivot('quantity');
+    }
+
+
+
 
 
 }

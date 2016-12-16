@@ -37,4 +37,9 @@ class Basket extends Model
         $this->isClosed() ? $this->state = OPEN : $this->state = CLOSED;
     }
 
+    public function products()
+    {
+        return $this->belongsToMany('App\Model\Product')->withPivot('quantity');
+    }
+
 }

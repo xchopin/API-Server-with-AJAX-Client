@@ -1,43 +1,37 @@
-# Quick slim - Slim 3 skeleton
-This is a skeleton for Slim PHP micro-framework to get started quickly
+# API Server with AJAX Client
+This is a quick demonstration of a API Server in PHP with a JQuery Client using AJAX for its requests.
 
-## Features
+## Engines used
+
+- CORS jQuery AJAX requests
 - Eloquent ORM
-- Flash messages
-- CSRF protection
-- Authentication (Sentinel)
-- Validation (Respect)
-- Twig templating engine
-- Twig cache
-- Twig debug extension
+- Font Awesome
+- Slim Micro framework
+- Twig
+- Twitter Bootstrap
+
 
 ## Installation
 ### 1. Create project
-#### Using composer
-```
-$ composer create-project awurth/quickslim [app-name]
-```
 
-#### Manual install
 ```
-$ git clone https://github.com/awurth/quickslim.git
+$ git clone https://github.com/xchopin/?.git
 $ composer install
 ```
 
 ### 2. Setup permissions
 ```
-$ cd [app-name]
+$ cd yourProject
 $ chmod 777 cache
 ```
 
-### 3. Configure database connection
-Navigate to the `bootstrap/` folder and copy `db.php.dist` to `db.php`
+### 3. Edit database settings
 ```
-$ cd bootstrap
-$ cp db.php.dist db.php
+$ sudo nano bootstrap/db.php
 ```
 
-Now you can edit db.php and add your database configuration
+### 4. Create your database and import the structure
+Run your favorite database management software such as phpMyAdmin, create a database and import bootstrap/installation.sql
 
 ## Key directories
 - `bootstrap`: Configuration files
