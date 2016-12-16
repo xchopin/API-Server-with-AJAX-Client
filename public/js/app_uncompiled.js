@@ -239,7 +239,7 @@ window.Shop = (() => {
         ctx.strokeStyle = 'rgba(0, 150, 0, 1)';
 
         for (let i = start; i < mid; i++) {
-            let drawLeft = window.setTimeout(function() {
+            let drawLeft = window.setTimeout(() => {
                 ctx.beginPath();
                 ctx.moveTo(start, start);
                 ctx.lineTo(leftX, leftY);
@@ -250,7 +250,7 @@ window.Shop = (() => {
         }
 
         for (let i = mid; i < end; i++) {
-            let drawRight = window.setTimeout(function() {
+            let drawRight = window.setTimeout(() => {
                 ctx.beginPath();
                 ctx.moveTo(leftX, leftY);
                 ctx.lineTo(rightX, rightY);
