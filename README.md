@@ -14,7 +14,7 @@ This is a quick demonstration of a CORS-Compliant REST API Server, written in PH
 ### 1. Create project
 
 ```
-$ git clone https://github.com/xchopin/?.git
+$ https://github.com/xchopin/REST-and-Ajax-Demo.git
 $ composer install
 ```
 
