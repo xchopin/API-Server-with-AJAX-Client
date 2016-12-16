@@ -1,0 +1,21 @@
+.vert {
+    color: #49a42d !important;
+    font-weight: bold;
+}
+
+
+
+footer {
+    margin-top: 4em;
+    background-color: #313131 !important;
+    padding-top: 30px;
+    padding-bottom: 3 0px;
+
+}
+
+footer > p {
+    color:white;
+    font-size: 20px;
+    vertical-align:middle;
+    margin-left : 15%;
+}
