@@ -1,16 +1,6 @@
 {
-    "name": "awurth/quickslim",
-    "description": "Boilerplate for Slim PHP micro-framework",
-    "keywords": ["slim", "eloquent", "twig", "framework", "boilerplate", "skeleton"],
-    "homepage": "https://github.com/awurth/quickslim",
+    "author": "xchopin",
     "license": "MIT",
-    "authors": [
-        {
-            "name": "Alexis Wurth",
-            "email": "alexis.wurth57@gmail.com",
-            "homepage": "https://github.com/awurth"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "App\\": "src/App"
