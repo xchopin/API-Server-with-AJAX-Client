@@ -26,6 +26,7 @@ $ chmod 777 cache
 
 ### 3. Edit database settings
 ```
+$ sudo cp bootstrap/db.php.dist db.php
 $ sudo nano bootstrap/db.php
 ```
 
